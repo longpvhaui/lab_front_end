@@ -16,9 +16,12 @@ html {
 }
 
 .grid {
-     width: 1200px;
+     width: 1800px;
      max-width: 100%;
      margin: 0 auto;
+     padding: 0;
+     height: 100%;
+
 }
 
 .grid__full-width {
