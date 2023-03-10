@@ -32,3 +32,8 @@ html {
      display: flex;
      flex-wrap: wrap;
 }
+.download {
+     display: block;
+     width: 100px;
+     height: 100px;
+}
