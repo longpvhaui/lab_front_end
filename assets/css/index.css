@@ -6,7 +6,9 @@
 		height: 3rem;
 		width: 3rem;
 	}
-
+	.carousel-item {
+		width: auto;
+	}
 	.phone {
 		display: none;
 	}
@@ -17,6 +19,10 @@
 	#branch-list li {
 		width: calc(50% - 20px);
 	  }
+	.footer{
+		display: list-item;
+	}
+
 }
 
 
@@ -27,7 +33,9 @@
 		height: 3rem;
 		width: 3rem;
 	}
-
+	.carousel-item{
+		width: auto;
+	}
 	.phone {
 		display: none;
 	}
@@ -43,6 +51,10 @@
 		font-size: 0.5rem;
 		font-weight: 350;
 
+	}
+	.footer{
+		display: list-item;
+		justify-content: center;
 	}
 	
 }
@@ -97,7 +109,15 @@
 	font-weight: 550 !important;
 
 }
-
+.btn-toogle{
+	width: 30px;
+	height: 30px;
+}
+.fa-bars {
+	width: 30px;
+	height: 30px;
+}
+}
 .container-fluid {
 	flex-wrap: nowrap !important;
 
@@ -203,23 +223,30 @@
 	display: flex;
 	justify-content: right;
 }
-
+.content {
+	position: absolute  !important;
+	width: 100%;
+	display: flex;
+   	justify-content: center;
+   	position: fixed;
+   	top: 50%;
+   	left: 50%;
+   	transform: translate(-50%, -50%);
+}
 .container-form {
-	margin-top: 50px;
 	max-width: 500px;
 	background-color: #fff;
 	padding: 20px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-	position: absolute !important;
-	z-index: 2;
 	height: 300px;
-	margin-left: auto;
-	margin-right: auto;
-	right: 15%;
-
 }
-
+.see-more{
+	
+}
+.row {
+	align-items: center;
+}
 .form-group label {
 	font-weight: bold;
 }
@@ -229,6 +256,8 @@
 }
 .footer{
 	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 #branch-list {
 	list-style: none;
@@ -236,17 +265,17 @@
 	justify-content: space-between;
   }
   
-  #branch-list li {
+#branch-list li {
 	padding: 20px;
 	margin-bottom: 20px;
 	width: 100%;
 	padding-left: 3rem;
   }
   
-  #branch-list li h3 {
+#branch-list li h3 {
 	margin-top: 0;
   }
   
-  #branch-list li p {
+#branch-list li p {
 	margin-bottom: 10px;
   }

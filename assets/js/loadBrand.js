@@ -46,21 +46,6 @@ function createBranchElement(branch) {
   return li;
 }
 
-// // Hàm hiển thị danh sách chi nhánh
-// function displayBranches() {
-//   // Xóa danh sách hiện tại (nếu có)
-//   while (branchList.firstChild) {
-//     branchList.removeChild(branchList.firstChild);
-//   }
-//   branches.forEach((branch) => {
-//     const li = createBranchElement(branch);
-//     branchList.appendChild(li);
-//     });
-//     }
-    
-//     // Tải danh sách chi nhánh khi trang web được tải
-//     window.addEventListener('load', displayBranches);
-
 const branchList = document.getElementById('branch-list');
 
 // Tạo một mảng chứa số lượng chi nhánh cho từng kích thước màn hình
